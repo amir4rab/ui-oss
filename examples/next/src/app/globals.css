@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply accent-primary-600 dark:accent-primary-400 outline-primary-600 dark:outline-primary-400;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+  }
+}
+
+html[data-modal-open="true"] * {
+  touch-action: none;
+}
+html[data-modal-open="true"]
+  [data-dialog-open="true"]
+  [data-scrollable="true"]
+  * {
+  touch-action: auto;
+}
