@@ -30,11 +30,11 @@ you can find the list of components either [here](./components/) or on [ui.amir4
 | Fully Supported     | X       | -            | -      |
 | Partially Supported | -       | X            | X      |
 
-### Next.js {#next-eg}
+### Nextjs
 
 You just need to complete the setup process. You can find the complete example on [here](./examples/next).
 
-### React + Vite {#react-vite-eg}
+### React-Vite
 
 Since there are some differences between Next.js and Vite you might have to do the following:
 
@@ -42,7 +42,7 @@ Since there are some differences between Next.js and Vite you might have to do t
 
 You can find the 'React + Vite' example on [here](./examples/react-vite/).
 
-### Preact + Vite {#preact-vite-eg}
+### Preact-Vite
 
 Since there are some differences between react and preact you might have to do the following:
 
